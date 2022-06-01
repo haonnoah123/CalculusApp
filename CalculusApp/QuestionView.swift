@@ -21,10 +21,10 @@ struct QuestionView: View {
                     if problem.QuestionImage != "null" {
                         Image(problem.QuestionImage)
                         Text(problem.Question)
-                            .font(.title2)
+                            .font(.body)
                     } else {
                         Text(problem.Question)
-                            .font(.title)
+                            .font(.title3)
                     }
                 }
             Spacer().frame(height: 70)
