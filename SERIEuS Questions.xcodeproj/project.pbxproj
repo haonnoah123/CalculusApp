@@ -18,7 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		502843FB2832A15C009E98A0 /* 2022 Calculus Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "2022 Calculus Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		502843FB2832A15C009E98A0 /* SERIEuS Questions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SERIEuS Questions.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		502843FE2832A15C009E98A0 /* CalculusAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculusAppApp.swift; sourceTree = "<group>"; };
 		502844002832A15C009E98A0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		502844022832A15F009E98A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,7 +51,7 @@
 		502843FC2832A15C009E98A0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				502843FB2832A15C009E98A0 /* 2022 Calculus Project.app */,
+				502843FB2832A15C009E98A0 /* SERIEuS Questions.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -82,9 +82,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		502843FA2832A15C009E98A0 /* 2022 Calculus Project */ = {
+		502843FA2832A15C009E98A0 /* SERIEuS Questions */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 502844092832A15F009E98A0 /* Build configuration list for PBXNativeTarget "2022 Calculus Project" */;
+			buildConfigurationList = 502844092832A15F009E98A0 /* Build configuration list for PBXNativeTarget "SERIEuS Questions" */;
 			buildPhases = (
 				502843F72832A15C009E98A0 /* Sources */,
 				502843F82832A15C009E98A0 /* Frameworks */,
@@ -94,9 +94,9 @@
 			);
 			dependencies = (
 			);
-			name = "2022 Calculus Project";
+			name = "SERIEuS Questions";
 			productName = CalculusApp;
-			productReference = 502843FB2832A15C009E98A0 /* 2022 Calculus Project.app */;
+			productReference = 502843FB2832A15C009E98A0 /* SERIEuS Questions.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -114,7 +114,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 502843F62832A15B009E98A0 /* Build configuration list for PBXProject "2022 Calculus Project" */;
+			buildConfigurationList = 502843F62832A15B009E98A0 /* Build configuration list for PBXProject "SERIEuS Questions" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -127,7 +127,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				502843FA2832A15C009E98A0 /* 2022 Calculus Project */,
+				502843FA2832A15C009E98A0 /* SERIEuS Questions */,
 			);
 		};
 /* End PBXProject section */
@@ -336,7 +336,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		502843F62832A15B009E98A0 /* Build configuration list for PBXProject "2022 Calculus Project" */ = {
+		502843F62832A15B009E98A0 /* Build configuration list for PBXProject "SERIEuS Questions" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				502844072832A15F009E98A0 /* Debug */,
@@ -345,7 +345,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		502844092832A15F009E98A0 /* Build configuration list for PBXNativeTarget "2022 Calculus Project" */ = {
+		502844092832A15F009E98A0 /* Build configuration list for PBXNativeTarget "SERIEuS Questions" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5028440A2832A15F009E98A0 /* Debug */,
