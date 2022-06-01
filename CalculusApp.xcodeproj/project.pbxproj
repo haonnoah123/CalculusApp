@@ -11,6 +11,10 @@
 		502844012832A15C009E98A0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502844002832A15C009E98A0 /* ContentView.swift */; };
 		502844032832A15F009E98A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 502844022832A15F009E98A0 /* Assets.xcassets */; };
 		502844062832A15F009E98A0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 502844052832A15F009E98A0 /* Preview Assets.xcassets */; };
+		5028440D2832A35C009E98A0 /* Problem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5028440C2832A35C009E98A0 /* Problem.swift */; };
+		5028440F2832A536009E98A0 /* DataGetter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5028440E2832A536009E98A0 /* DataGetter.swift */; };
+		502844112832A5CA009E98A0 /* ProblemData.json in Resources */ = {isa = PBXBuildFile; fileRef = 502844102832A5CA009E98A0 /* ProblemData.json */; };
+		502844132832CC42009E98A0 /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502844122832CC42009E98A0 /* QuestionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		502844002832A15C009E98A0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		502844022832A15F009E98A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		502844052832A15F009E98A0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5028440C2832A35C009E98A0 /* Problem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem.swift; sourceTree = "<group>"; };
+		5028440E2832A536009E98A0 /* DataGetter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataGetter.swift; sourceTree = "<group>"; };
+		502844102832A5CA009E98A0 /* ProblemData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = ProblemData.json; path = ../../../../Desktop/ProblemData.json; sourceTree = "<group>"; };
+		502844122832CC42009E98A0 /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +61,10 @@
 			children = (
 				502843FE2832A15C009E98A0 /* CalculusAppApp.swift */,
 				502844002832A15C009E98A0 /* ContentView.swift */,
+				502844122832CC42009E98A0 /* QuestionView.swift */,
+				5028440C2832A35C009E98A0 /* Problem.swift */,
+				5028440E2832A536009E98A0 /* DataGetter.swift */,
+				502844102832A5CA009E98A0 /* ProblemData.json */,
 				502844022832A15F009E98A0 /* Assets.xcassets */,
 				502844042832A15F009E98A0 /* Preview Content */,
 			);
@@ -126,6 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				502844062832A15F009E98A0 /* Preview Assets.xcassets in Resources */,
+				502844112832A5CA009E98A0 /* ProblemData.json in Resources */,
 				502844032832A15F009E98A0 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +150,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				502844132832CC42009E98A0 /* QuestionView.swift in Sources */,
 				502844012832A15C009E98A0 /* ContentView.swift in Sources */,
+				5028440D2832A35C009E98A0 /* Problem.swift in Sources */,
 				502843FF2832A15C009E98A0 /* CalculusAppApp.swift in Sources */,
+				5028440F2832A536009E98A0 /* DataGetter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,7 +283,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CalculusApp/Preview Content\"";
-				DEVELOPMENT_TEAM = W64R5BX9UC;
+				DEVELOPMENT_TEAM = 883DK65VTV;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -280,7 +296,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = test.CalculusApp;
+				PRODUCT_BUNDLE_IDENTIFIER = ephs.CalculusApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -296,7 +312,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CalculusApp/Preview Content\"";
-				DEVELOPMENT_TEAM = W64R5BX9UC;
+				DEVELOPMENT_TEAM = 883DK65VTV;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -309,7 +325,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = test.CalculusApp;
+				PRODUCT_BUNDLE_IDENTIFIER = ephs.CalculusApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
