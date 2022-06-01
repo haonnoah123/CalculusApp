@@ -13,8 +13,8 @@
 		502844062832A15F009E98A0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 502844052832A15F009E98A0 /* Preview Assets.xcassets */; };
 		5028440D2832A35C009E98A0 /* Problem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5028440C2832A35C009E98A0 /* Problem.swift */; };
 		5028440F2832A536009E98A0 /* DataGetter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5028440E2832A536009E98A0 /* DataGetter.swift */; };
-		502844112832A5CA009E98A0 /* ProblemData.json in Resources */ = {isa = PBXBuildFile; fileRef = 502844102832A5CA009E98A0 /* ProblemData.json */; };
 		502844132832CC42009E98A0 /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502844122832CC42009E98A0 /* QuestionView.swift */; };
+		50B7FF352847BFFF00A3347F /* ProblemData.json in Resources */ = {isa = PBXBuildFile; fileRef = 50B7FF342847BFFF00A3347F /* ProblemData.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,8 +25,8 @@
 		502844052832A15F009E98A0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5028440C2832A35C009E98A0 /* Problem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem.swift; sourceTree = "<group>"; };
 		5028440E2832A536009E98A0 /* DataGetter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataGetter.swift; sourceTree = "<group>"; };
-		502844102832A5CA009E98A0 /* ProblemData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = ProblemData.json; path = ../../../../Desktop/ProblemData.json; sourceTree = "<group>"; };
 		502844122832CC42009E98A0 /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
+		50B7FF342847BFFF00A3347F /* ProblemData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ProblemData.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,8 +64,8 @@
 				502844122832CC42009E98A0 /* QuestionView.swift */,
 				5028440C2832A35C009E98A0 /* Problem.swift */,
 				5028440E2832A536009E98A0 /* DataGetter.swift */,
-				502844102832A5CA009E98A0 /* ProblemData.json */,
 				502844022832A15F009E98A0 /* Assets.xcassets */,
+				50B7FF342847BFFF00A3347F /* ProblemData.json */,
 				502844042832A15F009E98A0 /* Preview Content */,
 			);
 			path = CalculusApp;
@@ -138,7 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				502844062832A15F009E98A0 /* Preview Assets.xcassets in Resources */,
-				502844112832A5CA009E98A0 /* ProblemData.json in Resources */,
+				50B7FF352847BFFF00A3347F /* ProblemData.json in Resources */,
 				502844032832A15F009E98A0 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
